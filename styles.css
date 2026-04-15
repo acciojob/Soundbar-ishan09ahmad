@@ -1,1 +1,23 @@
-/*  your css code here. If applicable */
+body{
+	background-color:purple;
+	width:100vw;
+	min-height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.buttons
+{
+	widht:100%;
+	display:flex;
+	gap:1rem;
+}
+.btn,.stop
+{
+	background-color:darkblue;
+	color:white;
+	padding:.75rem 1rem;
+	border-radius:5px;
+	cursor:pointer
+}
+
